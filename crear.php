@@ -16,11 +16,11 @@
      
      <form action="guardar_persona.php" method="post">
          
-            <label for="usuario">Usuario</label> 
-            <input type="text" name="nombre" placeholder="usuario">
+            <label for="usuario" >Usuario</label> 
+            <input type="text" name="nombre" required placeholder="usuario">
             
             <label for="email">Email</label> 
-            <input type="text" name="email" placeholder="email">
+            <input type="text" name="email" required placeholder="email">
             
             <input type="submit" value="Guardar">
             
